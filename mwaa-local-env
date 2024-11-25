@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AIRFLOW_VERSION=2_10
-DOCKER_COMPOSE_PROJECT_NAME=aws-loscal-runner-$AIRFLOW_VERSION
+DOCKER_COMPOSE_PROJECT_NAME=aws-loscal-runner
 
 display_help() {
    # Display Help
