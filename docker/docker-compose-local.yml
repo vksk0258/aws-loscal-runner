@@ -6,6 +6,7 @@ services:
       - POSTGRES_USER=airflow
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
+      - AIRFLOW_CONFIG:'/home/aws-loscal-runner/docker/config'
     logging:
       options:
         max-size: 10m
