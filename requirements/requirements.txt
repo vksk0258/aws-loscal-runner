@@ -1,4 +1,4 @@
--find-links /usr/local/airflow/plugins/plugins_whl
+--find-links /usr/local/airflow/plugins/plugins_whl
 --no-index
 
 aiobotocore
